@@ -1,0 +1,25 @@
+/*<?php
+include("Conexion.php");
+
+    $id= $_POST['id_cli'];
+    $Nombre=$_POST['Nombre'];
+    $aPaterno=$_POST['aPaterno'];
+    $aMaterno=$_POST['aMaterno'];
+    $Email=$_POST['Email'];
+    $Telefono=$_POST['Telefono'];
+    $Celular=$_POST['Celular'];
+    $Direccion=$_POST['Direccion'];
+    $Comuna=$_POST['Comuna'];
+
+    //insertar cliente en BD
+    $sqlstr="insert into Clientes value('".$Nombre."','".$aPaterno."','".$aMaterno."','".$Email."','".$Telefono."','".$Celular."','".$Direccion."','".$Comuna."')";
+
+    $resultado=mysqli_query($conexion,$sqlstr);
+
+    if(!$resultado){
+    //die();
+        exit(mysqli_error($conexion));
+    }
+    mysqli_close($conexion);
+      
+?>*/
